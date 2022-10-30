@@ -52,9 +52,21 @@ a:active{
     height: 60%;
 
 }
-.img{
+.img1{
     display: flex;
-    background-image: url(../img/Filmandclapboard.webp);
+    background-image: url(../img/matrix.jpg);
+    background-size: cover;
+    height: 100%;
+}
+.img2{
+    display: flex;
+    background-image: url(../img/avatar.jpg);
+    background-size: cover;
+    height: 100%;
+}
+.img3{
+    display: flex;
+    background-image: url(../img/parasite.jpg);
     background-size: cover;
     height: 100%;
 }
