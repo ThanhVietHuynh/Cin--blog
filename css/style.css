@@ -1,0 +1,144 @@
+*{box-sizing: border-box;}
+.row{
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+}
+.logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;   
+}
+img{
+    width: 150px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 3em;
+    color: #D82C2C;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:active{
+    opacity: 0.6;
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+
+}
+.fiche{
+    display: flex;
+    width: 30%;
+    height: 650px;
+}
+.mred{
+    height: 100%;
+    width: 8%;
+    background-color: #D82C2C;
+}
+.presentation{
+    background-color: rgb(191, 191, 205);
+    height: 100%;
+    width: 92%;
+}
+.photo{
+    width: 100%;
+    height: 60%;
+
+}
+.img{
+    display: flex;
+    background-image: url(../img/Filmandclapboard.webp);
+    background-size: cover;
+    height: 100%;
+}
+.titre{
+    display: flex;
+    align-items: flex-end;
+}
+h2{
+    color: white;
+    margin-top: 0;
+    font-size: 2em;
+}
+.resultat{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 40%; 
+
+}
+.notecrit{
+    display: flex;
+    justify-content: space-between;
+    height: 40%;
+}
+.texte{
+    margin-top: 0;
+    height: 60%;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.note{
+    color: #D82C2C;
+    font-size: 2em;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.crit{
+    color: white;
+    font-size: 2.2em;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+p{
+    font-size: 1.2em;
+    margin: 20px;
+    margin-bottom: 0;
+    
+}
+
+.mred:hover{
+    background-color: gray;
+    transition: all 0.3s;
+}
+p::first-letter{
+    color: #D82C2C;
+    font-size: 2em;
+}
+
+
+@media screen and (max-width: 420px){
+
+    body{
+        width: 100%;
+        margin: 0;
+    }
+
+    .card{
+        flex-direction: column;
+    }
+    h1{
+        font-size: 2.3em;
+        
+    }
+    .fiche{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    p{
+        font-size: 1.3em;
+    }
+    img{
+        width: 100px;
+    }
+
+}
+    
